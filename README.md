@@ -1,0 +1,15 @@
+# Stock-Forecasting-in-R
+ - stock forecasting in R using the yahoo finance data.
+ - this is the financial technologies project.
+ - I did it with the group:
+    - Shubham Pawar (191080071).
+    - Nityansh Doshi (191080053).
+    - Sahil Satpute (191080066).
+    - Atharva Bhosale (191080006).
+ - We used the ARIMA model for by converting the xts/zoo data to monthly time series data.
+ - We used exponential time smoothing, for obtaining a smooth graph.
+ - We compared it with the linear regression prediction.
+ - A shiny app is created which shows both the graph predictions in ARIMA and linear regression model.
+ - the requirements of this project specified in requirements.txt
+ - We also output the RMSE and percentage error in the data.
+ - ![The Shiny UI](./Web%20capture_18-11-2021_104543_127.0.0.1.jpeg "The first graph is of ARIMA and second is of Linear regression")

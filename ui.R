@@ -16,12 +16,12 @@ shinyUI(fluidPage(
         ),
 
       # textinput - this will pass to the server in the backend.
-      # textInput("symb", "Symbol", "SPY"),
-      selectInput("symb", "Symbol",choices=stockSymbols(
-  exchange = c("AMEX", "NASDAQ", "NYSE", "ARCA", "BATS", "IEX"),
-  sort.by = c("Exchange", "Symbol"),
-  quiet = FALSE
-), selected = "SPY"),
+      textInput("symb", "Symbol", "SPY"),
+#       selectInput("symb", "Symbol",choices=stockSymbols(
+#   exchange = c("AMEX", "NASDAQ", "NYSE", "ARCA", "BATS", "IEX"),
+#   sort.by = c("Exchange", "Symbol"),
+#   quiet = FALSE
+# ), selected = "SPY"),
 
       # this is the line break.
       br(),
